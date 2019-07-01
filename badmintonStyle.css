@@ -1,0 +1,265 @@
+@media only screen and (max-width: 768px) {
+  .HeaderDiv, .HeaderText{
+        font-size: 50px;
+    }
+    .main{
+        margin-top: 13%;
+    }
+    .homeText, .joinHeader{
+        width: 100%;
+        padding-bottom:12%;
+    }
+    .titleText{
+        font-size: 40px;
+    }
+    .tableHeader{
+        width: 100%;
+        font-size: 18px;
+    }
+    .container{
+        font-size: 12px;
+    }
+    .container table {
+        width:100%;
+    }
+    .joinText p {
+        padding-bottom:10%;
+        width:100%;
+    }
+    .joinText h3 {
+        padding-bottom:2%;
+        width:100%;
+    }
+    
+    #sideCollapsed{
+        padding-top:5%;
+    }
+
+}
+
+@media only screen and (min-width: 768px) {
+  .HeaderDiv, .HeaderText{
+        font-size: 100px;
+    }
+    .main{
+        margin-top: 3%;
+    }
+    .homeText, .joinHeader{
+        width: 70%;
+        padding-bottom:3%;
+    }
+    .titleText{
+        font-size: 60px;
+    }
+    .tableHeader{
+        width: 50%;
+    }
+    .container table {
+        width:50%;
+    }
+    .joinText p {
+        padding-bottom:3%;
+        width:70%;
+    }
+    .joinText h3 {
+        padding-bottom:1%;
+        width:70%;
+    }
+}
+
+.wrapper {
+    display: flex;
+    align-items: stretch;
+}
+
+#sidebar {
+    position:fixed;
+    margin-top:50px;
+    min-width: 250px;
+    max-width: 250px;
+    height:100%;
+	margin-left: -250px;
+	background-color: black;
+    color: #fff;
+    transition: all 0.3s;
+    z-index: 1;
+}
+
+.collapseButton{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+}
+
+#sidebar.active{
+	margin-left: 0px;
+}
+
+/* The navigation menu links */
+.nav a {
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+
+.nav li {
+  padding-left: 10%;
+}
+
+/* When you mouse over the navigation links, change their color */
+.nav a:hover {
+  color: #f1f1f1;
+}
+
+/* The navigation menu links */
+.nav .navbar-toggler {
+  padding-left: 10%;
+  color: white;
+  text-align: left;
+  margin:0;
+  border:none;
+  font:inherit;
+}
+
+#levelDoublesItem, #mixedFoursItem, #dreamTeamsItem {
+	padding-left:6%;
+}
+
+#topList {
+  font-size:25px;
+  padding-right: 15%;
+  padding-bottom: 15%;
+  padding-top: 15%;
+}
+
+/* Style page content */
+.main {
+    position:relative;
+  font-family: "Calibri Light";
+  padding-bottom:10%;
+  width:100%;
+}
+
+.HeaderDiv .Header1 {
+	opacity: 0.6;
+}
+
+.HeaderDiv {
+	position: relative;
+	text-align: center;
+}
+
+.HeaderDiv .HeaderText{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.introText{
+    padding-left:8%;
+	padding-right:8%;
+	padding-top:3%;
+	padding-bottom:3%;
+	color: #006680;
+	text-align: justify;
+}
+
+.homeText {
+	padding-left:8%;
+	padding-right:8%;
+	text-align: justify;
+	margin: 0 auto; 
+}
+
+.homeText, .homeHeader{
+	padding-top:3%;
+	color: #006680;
+}
+
+.homeHeader{
+    padding-bottom: 3%;
+}
+
+.racketText {
+    padding-left:8%;
+	padding-right:8%;
+	text-align: justify;
+	padding-top:3%;
+	padding-bottom:6%;
+	color: #006680;
+	float: right;
+}
+
+#racketImage {
+    float: left;
+    padding-right: 6%;
+}
+
+.titleText {
+	color:#006680;
+	text-align: center;
+	padding-top: 7%;
+	padding-bottom: 3%;
+}
+
+.joinText h3{
+	padding-left:8%;
+	padding-right:8%;
+	color: #006680;
+	margin: 0 auto; 
+}
+.joinText p{
+	padding-left:8%;
+	padding-right:8%;
+	color: #006680;
+	margin: 0 auto; 
+}
+
+iframe {
+  border:none;
+}
+
+.previousLeaguesHeader{
+	padding-bottom:6%;
+	color: #006680;
+	text-align:center;
+}
+
+.container {
+      padding:0;
+      margin:0;
+}
+
+.indTable{
+	padding-bottom:5%;
+}
+
+.tableHeader {
+	background-color: #b3ccff;
+	font-weight: bold;
+	padding:1%;
+}
+
+tr, th {
+	text-align: right;
+	line-height: 20px;
+}
+
+tr:nth-child(even) {
+	background-color: #ccebff;
+}
+
+.bottomFooter{
+position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width:100%;
+  text-align: center;
+}
+
+#footerText {
+    color: white;
+}
